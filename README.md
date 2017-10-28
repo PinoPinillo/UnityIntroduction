@@ -14,7 +14,7 @@ Tras completarse la descargar, iniciamos el instalador y llegaremos a una ventan
 Marcaremos las siguientes opciones (Si se prefiere usar Visual Studio, puedes marcar la opción para descargarlo con las herramientas
 necesarias para Unity):
 
-![Download Assitant](Images/Download_Assistant.png "Download Assitant")
+![Download Assistant](Images/Download_Assistant.png "Download Assistant")
 
 Seleccionaremos los Build Support de las plataformas para las que vamos a compilar nuestras aplicaciones (Mi recomendación es descargar
 todas para no tener que hacerlo más adelante si necesitamos otra plataforma más).
