@@ -20,3 +20,9 @@ Seleccionaremos los Build Support de las plataformas para las que vamos a compil
 todas para no tener que hacerlo más adelante si necesitamos otra plataforma más).
 
 Una vez se complete la descarga podremos ejecutar Unity.
+
+## Retos
+Una vez finalizado el proyecto, os propongo unos retos para que ampliéis los conocimientos adquiridos en el taller:
+- Agregar uno o más niveles. Al pasar de nivel se guarda la puntuación y las vidas que tiene el jugador. Usar <b>DontDestroyOnLoad</b>.
+- Añadir enemigos que se muevan por el nivel siguiendo al personaje con <b>NavMesh</b>.
+- Guardar récords con <b>PlayerPrefs</b>.
