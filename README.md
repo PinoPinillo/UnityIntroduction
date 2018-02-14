@@ -201,6 +201,10 @@ Ya va cogiendo forma nuestro Pac-Man, pero todavía nos hace falta controlar cua
 
 ![GameController](Images/GameController-1.png "GameController")
 
+Crearemos un nuevo GameObject al que llamaremos GameController y le añadimos el nuevo script. En el inspector tendremos que referenciar a nuestro personaje, así que arrastramos el objeto correspondiente al campo del script GameController en el inspector, quedando así:
+
+![GameController](Images/GameController_Inspector-1.png "GameController")
+
 Además, tendremos que modificar el método OnTriggerEnter del PlayerController para que modifique las vidas y la puntuación cuando corresponda:
 
 ![PlayerController](Images/PlayerController-3.png "PlayerController")
@@ -226,6 +230,10 @@ Nos quedaría una escena así:
 Ahora modificaremos el GameController para que muestre la puntuación y las vidas a través de la UI. Para usar los componentes de la UI, tendremos que importarlos (using UnityEngine.UI).
 
 ![GameController](Images/GameController-2.png "GameController")
+
+Tendremos que hacer referencia a los textos en el inspector, para ello los arrastramos a los campos correspondientes, quedando nuestro GameController tal y como se muestra en la siguiente imagen:
+
+![GameController](Images/GameController_Inspector-2.png "GameController")
 
 Si lo probamos veremos que ahora nos muestra todo a través de los textos que hemos creado:
 
